@@ -1,7 +1,30 @@
+<!-- 
+   file; people.ejs
+   author; Josh Mineiro
+   website; http://comp2068-midterm-jm.azurewebsites.net
+   description; people .ejs template
+-->
+
 <% include partials/header.ejs %>
-<% include partials/navbar.ejs %>
-    <main class="container">
-        <h1>My Favourite People - Who They Are</h1>
-    </main>
-<% include partials/footer.ejs %>
-    
+    <% include partials/navbar.ejs %>
+        <main class="container">
+            <h1>My Favourite People - Who They Are</h1>
+            <% include partials/images.ejs %>
+
+                <h2>Walter White</h2>
+                <p>Walter is a family man if I ever saw one. Man gives up his life as a high school chemistry teacher to cook
+                    meth to help his family pay for his cancer treatment and leave them money after he's gone.
+                    <br />
+                </p>
+
+                <h2>Terry Crews</h2>
+                <p>Terry Crews is so badass he didn't even have to change his name when acting on Brooklyn 99. He's just Sgt.
+                    Terry.
+                </p>
+                
+                <h2>Joey Bada$$</h2>
+                <p>Joey is just really good at rapping and is my favourite artist. Coming out of Flatbush in New York,
+                    he's made a name for himself internationally at just 20 years old.
+                </p>
+        </main>
+        <% include partials/footer.ejs %>

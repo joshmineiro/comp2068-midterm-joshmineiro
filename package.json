@@ -1,5 +1,5 @@
 {
-  "name": "comp2068-lab4",
+  "name": "comp2068-midterm-joshmineiro",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GeorgianCollege/COMP2068-Lab4"
+    "url": "https://github.com/joshmineiro/comp2068-midterm-joshmineiro"
   },
-  "author": "Tom Tsiliopoulos",
-  "description": "A project for COMP2068 Lab 4",
+  "author": "Josh Mineiro",
+  "description": "Midterm assignment for COMP2068",
   "license": "MIT",
   "dependencies": {
     "body-parser": "~1.13.2",
